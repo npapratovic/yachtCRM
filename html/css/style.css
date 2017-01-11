@@ -1,483 +1,559 @@
 @font-face {
-  font-family: "icomoon";
-  src: url("../fonts/icomoon.eot?ligyrv");
-  src: url("../fonts/icomoon.eot?ligyrv#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?ligyrv") format("truetype"), url("../fonts/icomoon.woff?ligyrv") format("woff"), url("../fonts/icomoon.svg?ligyrv#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "icomoon";
+    src: url("../fonts/icomoon.eot?ligyrv");
+    src: url("../fonts/icomoon.eot?ligyrv#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?ligyrv") format("truetype"), url("../fonts/icomoon.woff?ligyrv") format("woff"), url("../fonts/icomoon.svg?ligyrv#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
 }
 
-/*Navbar*/
-.navbar-default {
-  background-color: transparent;
-  border-color: transparent;
-  padding-top: 30px;
-}
+/* =Main Header section*/
 
-.navbar-nav {
-  font-family: 'Raleway', sans-serif;
-}
-
-.navbar-brand {
-    margin-left: -100px!important;
-}
-
-.navbar-default .navbar-nav li {
-  display: inline-block;
-  margin-right: 35px;
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: 700;
-  font-family: "Raleway", sans-serif;
-  letter-spacing: 0.04em;
-}
-
-.navbar-right {
-    float: right!important;
-    margin-right: -150px;
-}
-
-.navbar-collapse li.reduce-margin {
-  margin-right: 35px;
-}
-
-.navbar-default .navbar-nav li  a {
-  color: #fff;
-}
-
-.navbar-default .navbar-nav li  a:hover {
-  color: #e7434e;
-}
-
-.navbar-default .navbar-nav li:last-child{
-  	vertical-align: middle;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    padding: 0 40px;
-    min-width: 140px;
-}
-
-.navbar-default .navbar-nav li:last-child:hover{
-  	background: #fff;
-  	cursor: hand; 
- }
-
- .navbar-default .navbar-nav li:last-child:hover > a{
- 	color: #717171;
- }
-
-/*Header*/
-
+/*=Header*/
 .header-section {
-  background-image: url(../img/header-background.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  padding: 290px 0px 290px 0px;
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 30px 0px 290px 0px;
+    margin-top: 80px;
 }
-
 .header-box {
-  color: #fff;
-  text-transform: uppercase;
+    color: #fff;
+    text-transform: uppercase;
 }
-
 .header-box h1 {
-  font-family: "Raleway", sans-serif;
-  letter-spacing: 0.08em;
-  font-weight: bold;
-  font-size: 72px;
-  line-height: 1em;
-  margin: 0 0 15px;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.08em;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 1em;
+    margin: 0 0 15px;
 }
-
 .header-box h2 {
-  letter-spacing: 0.04em;
-  line-height: 1em;
-  font-size: 30px;
-  margin: 0 0 80px;
-  font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.04em;
+    line-height: 1em;
+    font-size: 30px;
+    margin: 0 0 80px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-
-/*Destination section */
+/*=Destination section */
 .destinations-form {
-  display: block;
-  max-width: 770px;
-  margin: 0 auto;
-  position: relative;
+    display: block;
+    max-width: 770px;
+    margin: 0 auto;
+    position: relative;
 }
-
 .destinations-form .input-line .form-input {
-  width: 100%;
-  height: 60px;
-  border: 0;
-  padding: 0 240px 0 30px;
-  font-size: 14px;
-  font-family: "Raleway", sans-serif;
-  letter-spacing: 0.04em;
-  border-radius: 5px;
-  color: #2c3e50;
+    width: 100%;
+    height: 60px;
+    border: 0;
+    padding: 0 240px 0 30px;
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.04em;
+    border-radius: 5px;
+    color: #2c3e50;
 }
-
 .btn.btn-special {
-  background: #e7434e;
-  line-height: 60px;
-  border-radius: 5px;
-  color: #ffffff;
-  height: 60px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  padding: 0 40px;
+    background: #e7434e;
+    line-height: 60px;
+    border-radius: 5px;
+    color: #ffffff;
+    height: 60px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 0 40px;
 }
-
 .destinations-form .form-submit {
-  position: absolute;
-  right: 0;
-  top: 0;
-  border-top-left-radius: 0 !important;
-  border-bottom-left-radius: 0 !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
 }
-
 .btn.btn-special:not(.no-icon)::before {
-  content: "";
-  font-family: "icomoon";
-  display: inline-block;
-  margin-right: 12.5px;
+    content: "";
+    font-family: "icomoon";
+    display: inline-block;
+    margin-right: 12.5px;
 }
-
 .statistic {
-  position: absolute;
-  bottom: 0;
+    position: absolute;
+    bottom: 0;
 }
-
 .destination-section-title {
-  margin-bottom: 70px;
-  margin-top: 30px;
+    margin-bottom: 70px;
+    margin-top: 30px;
 }
-
-.destination-section-title h2, .featured-boats-section h2 {
-  text-transform: uppercase;
-  color: #343435;
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
+.destination-section-title h2,
+.featured-boats-section h2 {
+    text-transform: uppercase;
+    color: #343435;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
 }
-
-.destination-section-title p, .featured-boats-section p {
-  color: #717171;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
+.destination-section-title p,
+.featured-boats-section p {
+    color: #717171;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
-
 .destination-section {
-  margin-top: -70px;
-  padding-bottom: 80px;
+    margin-top: -70px;
+    padding-bottom: 80px;
 }
-
 .destination-box {
-  display: block;
-  overflow: hidden;
-  margin-bottom: 30px;
-  position: relative;
-  border-radius: 5px;
-  z-index: 2;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+    border-radius: 5px;
+    z-index: 2;
 }
-
 .destination-box .boats-qty {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  pointer-events: none;
-  position: absolute;
-  border-radius: 5px;
-  background: #e7434e;
-  color: #ffffff;
-  height: 40px;
-  line-height: 40px;
-  padding: 0 10px;
-  display: inline-block;
-  font-size: 16px;
-  letter-spacing: 0.04em;
-  font-weight: bold;
-  left: 30px;
-  top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    pointer-events: none;
+    position: absolute;
+    border-radius: 5px;
+    background: #e7434e;
+    color: #ffffff;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    font-weight: bold;
+    left: 30px;
+    top: 30px;
 }
-
 .destination-box .boats-qty::before {
-  content: "";
-  font-family: icomoon;
-  display: inline-block;
-  margin-right: 10px;
-  font-weight: 500;
+    content: "";
+    font-family: icomoon;
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 500;
 }
-
 .box-details {
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
-  color: #fff;
-  pointer-events: none;
-  position: absolute;
-  bottom: 10px;
-  left: 25px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    pointer-events: none;
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
 }
-
 .city {
-  font-size: 30px;
+    font-size: 30px;
 }
-
 .country {
-  font-size: 20px;
+    font-size: 20px;
 }
-
 .btn.btn-default {
-  position: relative;
-  margin-top: 40px;
-  height: 60px;
-  line-height: 58px;
-  border-radius: 5px;
-  border: 1px solid #bdbdbd;
-  font-size: 14px;
-  font-weight: 700;
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  color: #343435;
-  letter-spacing: 0.04em;
-  padding: 0 40px;
+    position: relative;
+    margin-top: 40px;
+    height: 60px;
+    line-height: 58px;
+    border-radius: 5px;
+    border: 1px solid #bdbdbd;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    color: #343435;
+    letter-spacing: 0.04em;
+    padding: 0 40px;
 }
-
 .btn {
-  -webkit-transition: all 225ms ease-in-out;
-  transition: all 225ms ease-in-out;
-  text-overflow: ellipsis;
-  vertical-align: middle;
-  display: inline-block;
-  white-space: nowrap;
-  overflow: hidden;
+    -webkit-transition: all 225ms ease-in-out;
+    transition: all 225ms ease-in-out;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
 }
+/*=Rent your boat  */
 
-/*Rent your boat  */
 .rent-your-boat-section {
-  background-image: url(../img/rent-boat-background.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  padding: 160px 0;
-  margin-bottom: 100px;
-  color: #f9fafe;
-  text-transform: uppercase;
+    background-image: url(../img/rent-boat-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 160px 0;
+    margin-bottom: 100px;
+    color: #f9fafe;
+    text-transform: uppercase;
 }
-
 .rent-your-boat-section h1 {
-  letter-spacing: 0.08em;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 72px;
-  margin: 0 0 10px;
+    letter-spacing: 0.08em;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    margin: 0 0 10px;
 }
-
 .rent-your-boat-section p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
-  letter-spacing: 0.04em;
-  margin: 0 0 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.04em;
+    margin: 0 0 80px;
 }
+/* =Featured boats section */
 
-/* Featured boats section */
 .featured-boats-section {
-  margin-bottom: 100px;
+    margin-bottom: 100px;
 }
-
 .boat-box {
-  display: block;
-  overflow: hidden;
-  margin-bottom: 30px;
-  position: relative;
-  border-radius: 5px;
-  z-index: 2;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+    border-radius: 5px;
+    z-index: 2;
 }
-
 .boat-box .box-cover {
-  line-height: 1em;
-  font-size: 0;
+    line-height: 1em;
+    font-size: 0;
 }
-
 .boat-box .boat-price {
-  pointer-events: none;
-  position: absolute;
-  border-radius: 5px;
-  background: #e7434e;
-  color: #ffffff;
-  height: 40px;
-  line-height: 40px;
-  padding: 0 10px;
-  display: inline-block;
-  font-size: 16px;
-  letter-spacing: 0.04em;
-  font-weight: 700;
-  left: 30px;
-  top: 30px;
+    pointer-events: none;
+    position: absolute;
+    border-radius: 5px;
+    background: #e7434e;
+    color: #ffffff;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+    left: 30px;
+    top: 30px;
 }
-
 .boat-box .boat-price::before {
-  content: "";
-  font-family: icomoon;
-  display: inline-block;
-  margin-right: 10px;
-  font-weight: 500;
+    content: "";
+    font-family: icomoon;
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 500;
 }
-
 .boat-box .box-meta .boat-name {
-  font-family: "Raleway", sans-serif;
-  letter-spacing: 0.04em;
-  font-weight: 500;
-  line-height: 1em;
-  color: #ffffff;
-  margin: 0;
-  font-size: 30px;
-  margin: 0 0 10px;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    line-height: 1em;
+    color: #ffffff;
+    margin: 0;
+    font-size: 30px;
+    margin: 0 0 10px;
 }
-
 .boat-box .box-meta .boat-meta li.berths::before {
-  content: "";
+    content: "";
 }
-
 .boat-box .box-meta .boat-meta li.location::before {
-  content: "";
+    content: "";
 }
-
 .boat-box .box-meta .boat-meta li::before {
-  font-family: icomoon;
-  display: inline-block;
-  font-size: 14px;
-  margin-right: 7.5px;
+    font-family: icomoon;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 7.5px;
 }
-
 .clean-list {
-  list-style-type: none;
-  letter-spacing: 0em;
-  padding: 0;
-  margin: 0;
+    list-style-type: none;
+    letter-spacing: 0em;
+    padding: 0;
+    margin: 0;
 }
-
 .boat-box .box-meta .boat-meta li {
-  display: inline-block;
+    display: inline-block;
 }
-
 .boat-box .box-meta .boat-meta li:not(:last-of-type) {
-  margin-right: 25px;
+    margin-right: 25px;
 }
+/* =Footer */
 
-/* Footer */
 .main-footer {
-  background-image: url(../img/footer-pattern.png);
-  background-repeat: repeat-x;
-  background-color: #404040;
-  padding: 60px 0;
+    background-image: url(../img/footer-pattern.png);
+    background-repeat: repeat-x;
+    background-color: #404040;
+    padding: 60px 0;
 }
-
 .main-footer .widget .widget-title {
-  color: #ffffff;
-  text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
-  letter-spacing: 0.04em;
-  font-weight: 700;
-  line-height: 1em;
-  font-size: 14px;
-  margin: 0 0 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+    line-height: 1em;
+    font-size: 14px;
+    margin: 0 0 20px;
 }
-
 .main-footer .widget ul:not(.social-block) {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
-
 .main-footer li {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  margin-bottom: 12.5px;
-  display: block;
-  font-size: 14px;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  line-height: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-bottom: 12.5px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    line-height: 1.2em;
 }
-
 .main-footer a {
-  transition: all 170ms;
-  text-decoration: none;
-  color: inherit;
+    transition: all 170ms;
+    text-decoration: none;
+    color: inherit;
 }
-
 .subscribe-form {
-  display: block;
-  position: relative;
-  margin-bottom: 35px;
+    display: block;
+    position: relative;
+    margin-bottom: 35px;
 }
-
 .subscribe-form input[type="text"] {
-  display: block;
-  width: 100%;
-  height: 40px;
-  border-radius: 5px;
-  padding: 0 155px 0 20px;
-  font-size: 14px;
-  color: #2c3e50;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 155px 0 20px;
+    font-size: 14px;
+    color: #2c3e50;
 }
-
 .subscribe-form .btn {
-  border-top-left-radius: 0 !important;
-  border-bottom-left-radius: 0 !important;
-  position: absolute;
-  height: 40px !important;
-  line-height: 40px !important;
-  right: 0;
-  top: 0;
-  font-size: 14px !important;
-  font-weight: 500 !important;
-  font-family: "Open Sans", sans-serif !important;
-  letter-spacing: 0.02em;
-  padding: 0 30px !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    position: absolute;
+    height: 40px !important;
+    line-height: 40px !important;
+    right: 0;
+    top: 0;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    font-family: "Open Sans", sans-serif !important;
+    letter-spacing: 0.02em;
+    padding: 0 30px !important;
 }
-
 .statistics-box {
-  display: flex;
-  padding: 30px 10px;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-  background: #ffffff;
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 0px 30px 0px rgba(52, 52, 52, 0.15);
-  box-shadow: 0px 0px 30px 0px rgba(52, 52, 52, 0.15);
+    display: flex;
+    padding: 30px 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(52, 52, 52, 0.15);
+    box-shadow: 0px 0px 30px 0px rgba(52, 52, 52, 0.15);
 }
-
 .statistics-box .statistics-item {
-  text-align: center;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  padding: 10px 0;
+    text-align: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 10px 0;
 }
-
 .statistics-box .statistics-item:not(:last-of-type) {
-  border-right: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
 }
-
 .statistics-box .statistics-item .value {
-  display: block;
-  font-weight: 700;
-  line-height: 1em;
-  color: #343434;
-  font-size: 30px;
-  letter-spacing: 0.04em;
-  margin: 0 0 12.5px;
+    display: block;
+    font-weight: 700;
+    line-height: 1em;
+    color: #343434;
+    font-size: 30px;
+    letter-spacing: 0.04em;
+    margin: 0 0 12.5px;
+}
+.statistics-box .statistics-item .title {
+    margin: 0;
+    font-size: 18px;
+    color: #717171;
+    line-height: 1em;
+}
+/* =media 1024 */
+
+@media (max-width: 1024px) {
+}
+/* =media 991  fix navbar*/
+
+@media (max-width: 991px) {
+    .header-section {
+        padding-top: 0;
+    }
+}
+/* =media 768 */
+
+@media (max-width: 768px) {
+    .destinations-form .input-line .form-input {
+        width: 80%;
+        margin-left: -20%;
+        padding: 0 0 0 20px;
+    }
+    .destinations-form .btn.btn-special {
+        padding: 0 20px;
+    }
+    .navbar-default .navbar-nav li {
+        margin-right: 0;
+    }
+    .destination-box .boats-qty {
+        font-size: 12px;
+        left: 15px;
+        top: 15px;
+    }
+    .box-details {
+        left: 15px;
+    }
+    .city {
+        font-size: 20px;
+    }
+    .country {
+        font-size: 15px;
+    }
+    .rent-your-boat-section h1 {
+        font-size: 36px;
+    }
+    .rent-your-boat-section p {
+        font-size: 20px;
+    }
+    .col-sm-6-fix {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .col-xs-12-fix {
+        width: 80%;
+        margin: 0 auto;
+        float: none;
+    }
+    .boat-box .boat-price {
+        font-size: 12px;
+        left: 15px;
+        top: 15px;
+    }
+    .boat-box .box-meta .boat-name {
+        font-size: 20px;
+    }
+    .destination-box {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
-.statistics-box .statistics-item .title {
-  margin: 0;
-  font-size: 18px;
-  color: #717171;
-  line-height: 1em;
+/* =media 560 */
+@media (max-width: 560px) {
+    .header-box h1 {
+        font-size: 36px;
+        ;
+    }
+    .header-box h2 {
+        font-size: 20px;
+    }
+    .destinations-form .input-line .form-input {
+        font-size: 12px;
+    }
+    .statistics-box {
+        padding: 20px 5px;
+    }
+    .statistics-box .statistics-item .value {
+        font-size: 20px;
+        margin: 0 0 8px;
+    }
+    .statistics-box .statistics-item .title {
+        font-size: 15px;
+    }
 }
+
+/* =media 480 */
+@media (max-width: 480px) {
+    .header-box h1 {
+        font-size: 26px;
+        ;
+    }
+    .header-box h2 {
+        font-size: 16px;
+    }
+    ::-webkit-input-placeholder {
+        /* WebKit browsers */
+        
+        color: transparent;
+    }
+    :-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        
+        color: transparent;
+    }
+    ::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        
+        color: transparent;
+    }
+    :-ms-input-placeholder {
+        /* Internet Explorer 10+ */
+        
+        color: transparent;
+    }
+    textarea::-webkit-input-placeholder {
+        /* WebKit browsers */
+        
+        color: transparent;
+    }
+    textarea:-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        
+        color: transparent;
+    }
+    textarea::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        
+        color: transparent;
+    }
+    textarea:-ms-input-placeholder {
+        /* Internet Explorer 10+ */
+        
+        color: transparent;
+    }
+    .btn.btn-special:not(.no-icon)::before {
+        display: none;
+        margin-right: 0px;
+    }
+    .statistics-box {
+        padding: 10px;
+        display: block;
+    }
+    .statistics-box .statistics-item:not(:last-of-type) {
+        border-bottom: 1px solid #d4d4d4;
+        border-right: none;
+    }
+    .destination-section-title h2,
+    .featured-boats-section h2 {
+        font-size: 20px;
+    }
+    .rent-your-boat-section {
+        padding: 80px 0;
+        margin-bottom: 50px;
+    }
+    .rent-your-boat-section h1 {
+        font-size: 25px;
+    }
+    .rent-your-boat-section p {
+        font-size: 15px;
+    }
+    .btn.btn-special {
+        font-size: 12px;
+        padding: 0 20px;
+    }
+    .featured-boats-section {
+        margin-bottom: 50px;
+    }
+}
+
