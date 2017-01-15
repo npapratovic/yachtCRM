@@ -146,15 +146,15 @@ a {
     transition: all 0.2s ease-in;
 }
 .content a {
-    color: #BB9C6F;
+    color: #1976D2;
     font-weight: 600;
 }
 ::-moz-selection {
-    background: #2b3a42;
+    background: #084e92  ;
     color: #fff;
 }
 ::selection {
-    background: #2b3a42;
+    background: #084e92  ;
     color: #fff;
 }
 .left {
@@ -263,7 +263,7 @@ p.lead {
     height: 100%;
 }
 .circle.small {
-    background: #C5A97F;
+    background: #1976D2;
     color: #fff;
     float: left;
     margin: 0 8px 8px 0;
@@ -328,21 +328,21 @@ a.circle.small:focus {
     color: #C5A981;
 }
 .button.gold {
-    border-color: #C4A981;
-    color: #BB9C6F;
+    border-color: #1976D2;
+    color: #1976D2;
 }
 .button.gold:hover,
 .button.gold:focus {
-    background: #C4A981;
+    background: #1976D2;
     color: #fff;
 }
 .button.solid.gold {
-    background: #C4A981;
+    background: #1976D2;
     color: #fff;
 }
 .button.solid.gold:hover,
 .button.solid.gold:focus {
-    background: #CAB08A;
+    background: #1976D2;
 }
 .button.small {
     font-size: 13px;
@@ -374,7 +374,7 @@ a.circle.small:focus {
 }
 .more:hover,
 .more:focus {
-    color: #BB9C6F !important;
+    color: #1976D2 !important;
 }
 /* 06 LISTS */
 
@@ -389,7 +389,7 @@ ul > li {
 ul > li:before {
     content: "\25A0";
     font-size: 8px;
-    color: #DBBC94;
+    color: #ffffff;
     position: absolute;
     top: 3px;
     left: 0;
@@ -427,7 +427,7 @@ ul.check li {
     padding: 0 0 10px 20px;
 }
 ul.check li:before {
-    font-family: 'FontAwesome';
+    font-family: "FontAwesome", sans-serif;
     content: "\f00c";
     top: 1px;
     font-size: 14px;
@@ -638,12 +638,12 @@ ol.custom li:before {
     display: table-cell;
     vertical-align: middle;
     padding: 5px 0;
-    color: #2B3A42;
+    color: #084e92  ;
     font-size: 29px;
 }
 .logo span {
     font-size: 37px;
-    text-shadow: 0 0 0 #2B3A42;
+    text-shadow: 0 0 0 #084e92  ;
     float: left;
     margin: 2px 5px 0 0;
 }
@@ -717,7 +717,7 @@ ol.custom li:before {
 }
 .search-hide:hover,
 .search-hide:focus {
-    color: #CAB08A;
+    color: #1976D2;
 }
 /* 27 PRELOADER */
 
@@ -739,7 +739,7 @@ ol.custom li:before {
     bottom: 0;
     width: 9px;
     height: 5px;
-    background: #C5A97F;
+    background: #1976D2;
     position: absolute;
     -webkit-animation: preloader 1.5s infinite ease-in-out;
     -moz-animation: preloader 1.5s infinite ease-in-out;
@@ -996,7 +996,7 @@ fieldset > div {
 }
 .jetmenu > li:hover > a,
 .jetmenu > li.active > a {
-    color: #253238;
+    color: #1976D2;
 }
 .jetmenu ul.dropdown,
 .jetmenu ul.dropdown li ul.dropdown {
@@ -1038,7 +1038,7 @@ fieldset > div {
 }
 .jetmenu ul.dropdown li:hover > a {
     background: #f1f1f1;
-    color: #253238;
+    color: #1976D2;
 }
 .jetmenu ul.dropdown li ul.dropdown.left {
     left: auto;
@@ -1051,7 +1051,7 @@ fieldset > div {
     top: 0;
     font-size: 14px;
     float: right;
-    color: #C4A981;
+    color: #1976D2;
 }
 .jetmenu ul li .indicator {
     top: 1px;
@@ -1094,7 +1094,7 @@ fieldset > div {
 }
 .jetmenu li > .megamenu p {
     padding: 1px 10px 15px;
-    color: #C4A981;
+    color: #1976D2;
     border-bottom: 1px solid #ddd;
     text-transform: uppercase;
     font-size: 13px;
@@ -1115,13 +1115,13 @@ fieldset > div {
     font-weight: 600;
 }
 .jetmenu li > .megamenu a {
-    color: #253238;
+    color: #084e92  ;
 }
 .jetmenu li > .megamenu ul li a:hover {
     background: #f1f1f1;
 }
 .jetmenu li > .megamenu a:hover span {
-    color: #C4A981;
+    color: #1976D2;
 }
 .jetmenu .megamenu img {
     width: 100%;
@@ -1166,7 +1166,7 @@ fieldset > div {
     height: 50px;
     cursor: pointer;
     color: #fff;
-    background: #2B3A42;
+    background: #084e92  ;
     margin: 15px 0;
 }
 .jetmenu > li.showhide span.title {
@@ -1510,7 +1510,7 @@ div.radio input {
 }
 .ui-datepicker a.ui-state-active,
 .ui-datepicker a.ui-state-hover {
-    background: #2B3A42;
+    background: #084e92  ;
     color: #fff;
     font-weight: 500;
 }
@@ -1616,7 +1616,7 @@ div.radio input {
     }
     .jetmenu ul.dropdown > li > a {
         padding: 5px 15px;
-        color: #253238;
+        color: #084e92  ;
     }
     .jetmenu > li > .megamenu {
         width: 100% !important;

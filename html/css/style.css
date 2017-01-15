@@ -10,14 +10,26 @@
 
 /*=Header*/
 .header-section {
-    background-image: url(../img/header-background.jpg);
+    background-image: url('../img/header-background.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     padding: 100px 0px 290px 0px;
     margin-top: 80px;
+    position: relative;
+}
+.header-section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #252525, #080808);
+    opacity: .6;
 }
 .header-box {
+    position: relative;
     color: #fff;
     text-transform: uppercase;
 }
@@ -34,7 +46,7 @@
     line-height: 1em;
     font-size: 30px;
     margin: 0 0 80px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Raleway", sans-serif;
     color: #f9fafe;
 }
 
@@ -100,12 +112,13 @@
 .destination-section-title p,
 .featured-boats-section p {
     color: #717171;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 .destination-section {
     margin-top: -70px;
+    position: relative;
     padding-bottom: 80px;
 }
 .destination-box {
@@ -117,7 +130,7 @@
     z-index: 2;
 }
 .destination-box .boats-qty {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
     pointer-events: none;
     position: absolute;
@@ -143,7 +156,7 @@
 }
 .box-details {
     font-family: "Raleway", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     color: #fff;
     pointer-events: none;
     position: absolute;
@@ -185,7 +198,7 @@
 /*=Rent your boat  */
 
 .rent-your-boat-section {
-    background-image: url(../img/rent-boat-background.jpg);
+    background-image: url('../img/rent-boat-background.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -202,7 +215,7 @@
     margin: 0 0 10px;
 }
 .rent-your-boat-section p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 30px;
     letter-spacing: 0.04em;
     margin: 0 0 80px;
@@ -312,7 +325,7 @@
     top: 0;
     font-size: 14px !important;
     font-weight: 500 !important;
-    font-family: "Open Sans", sans-serif !important;
+    font-family: "Raleway", sans-serif !important;
     letter-spacing: 0.02em;
     padding: 0 30px !important;
 }
